@@ -1,10 +1,17 @@
-import Link from 'components/shared/link';
+import CTA from 'components/shared/cta/cta';
+import News from 'components/shared/news/news';
 
 const Home = () => (
   <div>
-    <h1>Pixel Point Next.js Tailwind Starter</h1>
-    <Link to="about">About</Link>
+	<News />
+	<CTA />
   </div>
 );
+
+
+
+
+
+	
 
 export default Home;

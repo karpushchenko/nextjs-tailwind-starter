@@ -6,16 +6,13 @@ import React from 'react';
 
 // Example of the code — https://user-images.githubusercontent.com/20713191/144221096-1939c382-4ab8-4d28-b0e6-7bbe3a8f8556.png
 const styles = {
-  // TODO: Add base styles
-  base: '',
-  // TODO: Add sizes. Better to write down all sizes and go from higher to lower, e.g. "xl", "lg", "md", "sm", "xs"
-  //       The name of the size cannot be lower than the font size that being used, e.g. "sm" size cannot have font-size "xs"
-  //       Check out an example by a link above for better understanding
-  size: {},
-  // TODO: Add themes. Better to name the theme using this pattern: "${color-name}-${theme-type}", e.g. "black-filled"
-  //       If there is no dividing between theme types, then feel free to use just color names, e.g. "black"
-  //       Check out an example by a link above for better understanding
-  theme: {},
+  base: 'inline-block sm:block sm:max-w-[328px] sm:mx-auto py-5 px-7 lg:py-4 rounded-[5rem] lg:rounded-[2.5rem] bg-primary-1 shadow-button text-black outline-none whitespace-nowrap text-center text-base leading-none font-semibold transition ease-out duration-300 hover:shadow-button-hover hover:bg-secondary-4',
+  size: {
+    'default': ''
+  },
+  theme: {
+    'default': ''
+  },
 };
 
 const Link = ({ className: additionalClassName, size, theme, to, children, ...props }) => {

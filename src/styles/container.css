@@ -1,5 +1,4 @@
 @layer components {
-  
   .container {
     @apply mx-auto max-w-[1472px] xl:px-[2.75rem] lg:max-w-none md:px-7 sm:px-4;
   }

@@ -1,23 +1,22 @@
 @import 'tailwindcss/components';
 
 @layer components {
-
   .news-card {
     /* Multi-layered blend mode hack */
     &__text p,
-	  &__logotype {
-        position: absolute;
-        left: 0;
-        top: 0;
-        mix-blend-mode: overlay;
+    &__logotype {
+      position: absolute;
+      left: 0;
+      top: 0;
+      mix-blend-mode: overlay;
 
-			&:first-child {
-				position: static;
-			}
+      &:first-child {
+        position: static;
+      }
 
-			&::last-child {
-				opacity: 0.6;
-			}
+      &::last-child {
+        opacity: 0.6;
+      }
     }
   }
 }

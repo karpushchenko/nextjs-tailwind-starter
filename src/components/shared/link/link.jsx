@@ -8,10 +8,10 @@ import React from 'react';
 const styles = {
   base: 'inline-block sm:block sm:max-w-[328px] sm:mx-auto py-5 px-7 lg:py-4 rounded-[5rem] lg:rounded-[2.5rem] bg-primary-1 shadow-button text-black outline-none whitespace-nowrap text-center text-base leading-none font-semibold transition ease-out duration-300 hover:shadow-button-hover hover:bg-secondary-4',
   size: {
-    'default': ''
+    default: '',
   },
   theme: {
-    'default': ''
+    default: '',
   },
 };
 

@@ -44,17 +44,17 @@ module.exports = {
       sm: { max: '767px' },
       xs: { max: '359px' },
     },
-    
+
     extend: {
       padding: {
-        '19': '72px',
+        19: '72px',
       },
       spacing: {
         30: '7.5rem',
       },
       boxShadow: {
-        'inner': '0 0 0 1px rgba(255, 255, 255, 1) inset',
-        'button': '0px 0px 0px rgba(153, 102, 255, 0.0)',
+        inner: '0 0 0 1px rgba(255, 255, 255, 1) inset',
+        button: '0px 0px 0px rgba(153, 102, 255, 0.0)',
         'button-hover': '0px 0px 60px rgba(153, 102, 255, 0.4)',
       },
     },

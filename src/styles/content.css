@@ -1,17 +1,16 @@
 @layer components {
-
-  h2{
-    @apply mb-6 lg:mb-5 sm:mb-4 text-7xl lg:text-5xl sm:text-[2rem] font-mono leading-[1.125] lg:leading-[1.125] text-gray-98 tracking-tighter;
+  h2 {
+    @apply mb-6 font-mono text-7xl leading-[1.125] tracking-tighter text-gray-98 lg:mb-5 lg:text-5xl lg:leading-[1.125] sm:mb-4 sm:text-[2rem];
     text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
   }
 
-	h3 {
-		@apply mb-14 lg:mb-12 sm:mb-10 text-6xl lg:text-[2.5rem] lg:leading-[1.125] sm:text-[1.75rem] font-mono leading-tight tracking-tighter;
-		text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
-	}
+  h3 {
+    @apply mb-14 font-mono text-6xl leading-tight tracking-tighter lg:mb-12 lg:text-[2.5rem] lg:leading-[1.125] sm:mb-10 sm:text-[1.75rem];
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+  }
 
   h5 {
-    @apply mb-[14px] sm:mb-3 text-2xl lg:text-xl leading-snug tracking-wide text-gray-98;
+    @apply mb-[14px] text-2xl leading-snug tracking-wide text-gray-98 lg:text-xl sm:mb-3;
     text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
   }
 
@@ -19,10 +18,3 @@
     @apply text-base font-light tracking-wide;
   }
 }
-
-
-
-
-
-
- 
